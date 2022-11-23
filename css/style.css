@@ -79,10 +79,10 @@ h2, h3{
 }
 
 #map{
-  width: 670px;
-  height: 550px;
+  width: 770px;
+  height: 650px;
   background-color: #ccc;
-  margin: 20px auto; 
+  margin: 10px auto; 
 }
 
 li{
