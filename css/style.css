@@ -1,0 +1,115 @@
+a{
+  color: inherit;
+}
+
+div a {
+  color: #009999;
+}
+div h1 {
+  background-color: #009999;
+  color: #000000;
+}
+div h2 {
+  background-color: #009999;
+  font-size: 2em;
+  color: #000000;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+div h3 {
+  background-color: #009999;
+  color: #FFFFFF;
+}
+
+body {
+    background: linear-gradient(to bottom, #33ccff 0%, #99ffcc 100%);
+    font-family:'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    margin: auto;
+    padding: 20px 50px;
+}
+
+header{
+  width: 100%;
+}
+header nav ul{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+    text-decoration: none;
+}
+header nav ul li{
+  margin-bottom: 5px;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  width: max-content;
+  list-style: none;
+}
+header nav ul li:nth-child(1){
+  float: left;
+}
+header nav ul li:nth-child(2){
+  float: right;
+}
+header nav ul li:nth-child(3){
+  float: right;
+}
+
+h1{
+  font-size: 3em;
+  line-height:2.5em;
+  font-weight: bold;
+  margin: auto;
+  position: relative;
+}
+
+h2, h3{
+  font-size: 2em;
+  line-height:1.5em;
+  font-weight: bold;
+  margin: auto;
+}
+
+li{
+  padding-left: 10px;
+}
+
+p ~ p{
+  padding-top: 5px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+nav{
+  height: 30px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+section{
+  padding: 10px 0;
+}
+
+main{
+  padding: 0 10px;
+}
+
+div div{
+  padding: 0 10px;
+}
+
+footer{
+  display: block;
+  color: #009999;
+}
