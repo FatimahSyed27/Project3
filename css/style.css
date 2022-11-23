@@ -78,6 +78,13 @@ h2, h3{
   margin: auto;
 }
 
+#map{
+  width: 670px;
+  height: 550px;
+  background-color: #ccc;
+  margin: 20px auto; 
+}
+
 li{
   padding-left: 10px;
 }
