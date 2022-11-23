@@ -20,8 +20,10 @@ function initMap() {
     map: map,
   });
   
+  var contentString = "<p>Sky Adventures Monteverde Park: One of the Best Ziplines located in Monteverde, Costa Rica</p>";
+  
   var infowindow = new google.maps.InfoWindow({
-    content:""
+    content: contentString,
   });
   infowindow.open(map, marker);
 }
