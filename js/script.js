@@ -1,36 +1,28 @@
-function initMap(){
-  var mapcanvas=document.getElementById('mapcanvas');
-  var myLocation=new google.maps.LatLng(10.33777027832051, -84.80989632990551);
-  var mapOptions={
-    center: myLocation,
-    zoom: 11,
-  };
-
-  var myMap=new google.maps.Map(mapcanvas, mapOptions);
-
-  var walkingPath = new google.maps.Polyline({
-    path: center,
-    geodesic: true,
-    strokeColor: "#FF0000",
-    strokeOpacity: 0.8,
-    strokeWeight: 2,
+function initMap() {
+  var map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 10,
+    center: { lat: 10.33777027832051, lng: -84.80989632990551},
   });
-
-  walkingPath.setMap(myMap);
-
+  
+  var childhood = new google.maps.Circle({
+    center:{ lat:10.33777027832051, lng: -84.80989632990551 },
+    radius:1500,
+    strokeColor:"#FF0000",
+    strokeOpacity:1.0,
+    strokeWeight:2,
+    fillColor:"#FF0000",
+    fillOpacity:0.2,
+    map: map
+  });
+  
   var marker = new google.maps.Marker({
-    position: {lat: 10.33777027832051, lng: -84.80989632990551},
-    map: myMap,
+    position: { lat:10.3377703, lng:-84.8098963 },
+    map: map,
   });
-
-  var contentString = "<p>Sky Adventures Monteverde Park: One of the Top Ziplines in Monteverde, Costa Rica</p>";
-
-  var infoWindow = new google.maps.InfoWindow({
-    content: contentString,
+  
+  var infowindow = new google.maps.InfoWindow({
+    content:""
   });
-
-  google.maps.event.addListener (marker, 'click', function() {
-    infoWindow.open(myMap, marker);
-  });
+  infowindow.open(map, marker);
 }
-window.initMap=initMap;  
+window.initMap = initMap;
