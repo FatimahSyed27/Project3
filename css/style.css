@@ -79,8 +79,8 @@ h2, h3{
 }
 
 #map{
-  width: 70%;
-  height: 70%;
+  width: 670px;
+  height: 550px;
   background-color: #ccc;
   margin: 20px auto; 
 }
