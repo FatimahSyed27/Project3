@@ -8,7 +8,7 @@ function initMap() {
     center:{ lat:10.33777027832051, lng: -84.80989632990551 },
     radius:1500,
     strokeColor:"#FF0000",
-    strokeOpacity:1.0,
+    strokeOpacity:0.8,
     strokeWeight:2,
     fillColor:"#FF0000",
     fillOpacity:0.2,
