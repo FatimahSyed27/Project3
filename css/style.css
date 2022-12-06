@@ -129,23 +129,18 @@ footer{
   h1 {
     color: black;
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 16px;
+    font-family: monospace;
     list-style: none;
   }
   
   
  @media screen and (min-width: 800px) {
-  h2, h3 {
+   h2, h3 {
     color: black;
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 16px;
+    font-family: monospace;
     list-style: none;
   }
    
- @font-face {
-font-family : 'Dosis';
-font-style : normal;
-font-weight : 400;
-font-display : swap;
-src : url(https://fonts.gstatic.com/s/dosis/v27/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7Ml2xMB.ttf) format('truetype');
-  }
