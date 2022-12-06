@@ -141,3 +141,11 @@ footer{
     font-size: 2em;
     list-style: none;
   }
+   
+ @font-face {
+font-family : 'Dosis';
+font-style : normal;
+font-weight : 400;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/dosis/v27/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7Ml2xMB.ttf) format('truetype');
+  }
