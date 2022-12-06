@@ -123,3 +123,24 @@ footer{
   display: block;
   color: #009999;
 }
+
+
+@media screen and (min-width: 800px) {
+  h1 {
+    color: black;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 3em;
+    list-style: none;
+  }
+  
+  
+  @media screen and (min-width: 800px) {
+  h2, h3 {
+    color: black;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 3em;
+    list-style: none;
+  }
+  
